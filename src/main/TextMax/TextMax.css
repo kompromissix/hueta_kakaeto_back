@@ -1,0 +1,21 @@
+.background3{
+    width: 100%;
+    height: 584px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background3 > div{
+    width: 1160px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.background3 h2{
+    font-weight: bold;
+    font-size: 64px;
+}
+.background3 span{
+    color: #ADADAD;
+}

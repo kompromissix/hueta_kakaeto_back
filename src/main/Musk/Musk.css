@@ -1,0 +1,53 @@
+.background5{
+    width: 100%;
+    height: 2209px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+.background5 > div{
+    width: 1160px;
+    height: 1929px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.background5 h2{
+    font-size: 64px;
+}
+.img-logo{
+    width: 124px;
+    height: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.img-logo:hover{
+    background-color: #A8FF35;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.twit{
+    height: 1435px;
+    width: 802px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.black{
+    width: 198px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+}

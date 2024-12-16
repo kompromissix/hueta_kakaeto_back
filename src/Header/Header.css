@@ -1,0 +1,174 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 900px;
+}
+nav{
+    width: 1280px;
+    height: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    width: 488px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.regist{
+    display: flex;
+    justify-content: space-between;
+    width: 213px;
+    align-items: center;
+}
+.regist > button{
+    width: 129px;
+    height: 42px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.background1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1076px;
+    height: 610px;
+    padding-bottom: 90px;
+}
+h1{
+    font-size: 72px;
+    width: 700px;
+    text-align: center;
+    font-weight: 900;
+}
+.top-elonmusk{
+    width: 700px;
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.background1 > div > p{
+    font-size: 18px;
+    color: #8B8B8B;
+}
+.background1 > div > div{
+    display: flex;
+    justify-content: center;
+}
+.background1 > div > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8FF35;
+    width: 180px;
+    height: 57px;
+    color: black;
+    font-size: 18;
+    font-weight: bold;
+    border-radius: 40px;
+}
+.elonmusk{
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+}
+.elonmusk{
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+
+}
+.elonmusk img{
+    width: 367px;
+    height: 126px;
+}
+.img2{
+    height: 170px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.img4{
+    height: 170px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.popap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.popap_div{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8FF35;
+    border: 2px solid black;
+    border-radius: 50px;
+    z-index: 50;
+}
+.popap > form > div{
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popap > form > div > div{
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+}
+.popap > form > div > div input{
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 25px;
+}
+.krest{
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+}
+.krest > button{
+    width: 100px;
+    height: 100px;
+    background: none;
+    border: none;
+}
+.krest > button > img{
+    width: 100px;
+    height: 100px;
+}

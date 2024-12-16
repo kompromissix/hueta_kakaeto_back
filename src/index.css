@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "EffraLight"; 
+  src: url("./EffraLight.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+*{
+  padding: 0;
+  margin: 0;
+  font-family: EffraLight;
+}

@@ -1,0 +1,87 @@
+.background7{
+    background-color: black;
+    width: 100%;
+    height: 1126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background7 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 848px;
+    width: 1160px;
+}
+.background7 > div > h2{
+    font-size: 64px;
+    color: white;
+}
+
+.price_list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.list{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    height: 640px;
+    border-radius: 16px;
+}
+.list-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 296px;
+    height: 486px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.list-div hr{
+    width: 296px;
+    border: none;
+    background-color: black;
+    height: 1px;
+}
+.top h2{
+    font-size: 32px;
+    width: 90px;
+}  
+.top p{
+    font-size: 18px;
+}  
+.price_div{
+    width: 136px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.price_div h2{
+    font-size: 64px;
+}
+.price_div h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+li{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 24px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.bottom{
+    max-height: 368px;
+    max-height: 368px;
+}
