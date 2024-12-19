@@ -8,6 +8,7 @@ import img4 from "./Header-assets/Group10.png"
 import krest from "./Header-assets/pngegg.png"
 import { useState } from "react"
 import axios from 'axios';
+import { Link } from "react-router-dom"
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -64,7 +65,8 @@ export default function Header() {
         <>
             <header>
                 <nav>
-                    <img src={logo} alt="" />
+                    <Link to="/Main"><img src={logo} alt="" /></Link>
+                    
                     <div className="nav">
                         <a href="">About</a>
                         <a href="">How it work</a>
@@ -78,6 +80,9 @@ export default function Header() {
                         </button>
                         <button type="button" onClick={openPopUpreg}>
                             <p>Register</p>
+                        </button>
+                        <button type="button">
+                            <Link to="/User">User</Link>
                         </button>
                     </div>
                 </nav>

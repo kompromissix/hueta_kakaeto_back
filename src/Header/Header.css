@@ -172,3 +172,6 @@ h1{
     width: 100px;
     height: 100px;
 }
+.regist > button > a{
+    color: black;
+}

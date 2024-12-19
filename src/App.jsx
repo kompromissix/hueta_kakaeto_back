@@ -1,10 +1,16 @@
 import "./App.css"
-import Header from "./Header/Header"
+import Main from "./main/main"
+import {Router, Route, Routes} from 'react-router-dom'
+import User from "./User/User"
 
 export default function App(){
     return(
         <>
-            <Header/>
+            <Routes>
+                <Route index element={<Main/>}/>
+                <Route path='/Main' element={<Main/>}/>
+                <Route path='/User' element={<User/>}/>
+            </Routes>
         </>
     )
 } 
